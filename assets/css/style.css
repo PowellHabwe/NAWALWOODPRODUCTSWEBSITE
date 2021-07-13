@@ -333,7 +333,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #151515;
+  color: #fff;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -363,6 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav .drop-down ul {
   display: none;
+ 
   overflow: hidden;
 }
 
@@ -1191,7 +1192,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #484848;
+  color: #fff;
 }
 
 .contact .info .email, .contact .info .phone {
