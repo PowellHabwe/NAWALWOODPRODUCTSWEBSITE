@@ -1432,6 +1432,7 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0 0 0 0;
+  font-size: 1.2em;
 }
 
 @media (max-width: 992px) {
