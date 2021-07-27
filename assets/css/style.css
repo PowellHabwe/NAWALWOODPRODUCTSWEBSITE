@@ -573,6 +573,28 @@ section {
   margin-bottom: 0;
 }
 
+#about .container .row {
+  margin-top: -2em;
+}
+
+#about .container .row p{
+ font-size: 1.1em;
+}
+
+#about .container .row h3{
+  font-size: 1.4em;
+ }
+ 
+
+#about .container h2{
+  font-size: 1.1em;
+  color: #151515;
+  margin-top: 2em;
+ }
+ 
+#about p {
+  font-size: 1.5em;
+}
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -656,6 +678,18 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+#services {
+  margin-top: -3em;
+  background-color: #535353;
+}
+
+#services .container .row {
+  margin-top: -2em;
+} 
+
+/* #services .container {
+  margin-top: -2.5em;
+} */
 .services .icon-box {
   text-align: center;
   border: 1px solid #ebebeb;
@@ -759,6 +793,10 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+}
+
+#portfolio {
+  margin-top: -3.5em;
 }
 
 .portfolio #portfolio-flters {
@@ -1647,4 +1685,11 @@ section {
 .overlay-image, p{
   font-size: 1.5em;
 
+}
+
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
 }
