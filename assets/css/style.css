@@ -595,6 +595,10 @@ section {
 #about p {
   font-size: 1.5em;
 }
+
+#about {
+  height: 34em;
+}
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -1692,4 +1696,8 @@ section {
   #hero {
     background-attachment: fixed;
   }
+}
+
+#portfolio-details .container .floors {
+  margin-top: -6em;
 }
