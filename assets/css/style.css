@@ -572,10 +572,10 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
-#about .container .row {
+ 
+/* #about .container .row {
   margin-top: -2em;
-}
+} */
 
 #about .container .row p{
  font-size: 1.1em;
@@ -589,16 +589,16 @@ section {
 #about .container h2{
   font-size: 1.1em;
   color: #151515;
-  margin-top: 2em;
+  /* margin-top: 2em; */
  }
  
 #about p {
   font-size: 1.5em;
 }
 
-#about {
+/* #about {
   height: 34em;
-}
+}  */
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -798,10 +798,6 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
-}
-
-#portfolio {
-  margin-top: -3.5em;
 }
 
 .portfolio #portfolio-flters {
@@ -1699,6 +1695,10 @@ section {
   }
 }
 
-#portfolio-details .container .floors {
+/* #portfolio-details .container .floors {
   margin-top: -6em;
+} */
+
+.about {
+  margin-top: 2em;
 }
