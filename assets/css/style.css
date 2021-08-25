@@ -754,8 +754,8 @@ section {
 
   .cta {
   /* background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("img.jpg") fixed center center;   */
-    /* background-image: url(/assets/img/.jpg);  */
-    background-color: #535353d2;
+     background-image: url(/img/interiors.jpg);  
+    /* background-color: #535353d2; */
     background-size: cover;
     padding: 60px 0;
     position: relative;
@@ -763,13 +763,15 @@ section {
   }
 
 .cta h3 {
-  color: #fff;
+  color: #151515;
+  /* color: #fff; */
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
-  color: #fff;
+  color: #ffffff;
+  /* color: #fff; */
   font-size: 1em;
 }
 
@@ -1653,7 +1655,7 @@ section {
 
 .carousel-item{
   height: 40rem;
-  background: #777;
+  background: #777; 
   color: white;
   position: relative;
   background-position: center;
@@ -1701,4 +1703,14 @@ section {
 
 .about {
   margin-top: 2em;
+}
+
+/* .carousel-inner .container p {
+  font-size: 1.2em;
+} */
+
+@media (max-width: 600px) {
+  .carousel-inner .container p {
+    font-size: 1.3em;
+  }
 }
