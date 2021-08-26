@@ -754,7 +754,7 @@ section {
 
   .cta {
   /* background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("img.jpg") fixed center center;   */
-     background-image: url(/img/interiors.jpg);  
+     /* background-image: url(/img/interior.jpg);   */
     /* background-color: #535353d2; */
     background-size: cover;
     padding: 60px 0;
@@ -1002,8 +1002,9 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  padding: 80px 0;
-  background: url("testimonials.jpg") no-repeat;
+  padding: 80px 0; 
+  /* background: url("testimonials.jpg") no-repeat;
+  */
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1017,7 +1018,8 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  /* background: rgba(0, 0, 0, 0.7);  */
+   background: rgba(0, 0, 0, 0.3); 
 }
 
 .testimonials .section-header {
@@ -1713,4 +1715,10 @@ section {
   .carousel-inner .container p {
     font-size: 1.3em;
   }
+}
+
+.testim {
+  background-image: url(testimonials.jpg);
+  background-size: cover;
+  background-position: center;
 }
