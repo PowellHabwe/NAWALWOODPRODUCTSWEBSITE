@@ -756,10 +756,10 @@ section {
   /* background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("img.jpg") fixed center center;   */
      /* background-image: url(/img/interior.jpg);   */
     /* background-color: #535353d2; */
-    background-size: cover;
+    /* background-size: cover;
     padding: 60px 0;
     position: relative;
-    background-position: center;
+    background-position: center; */
   }
 
 .cta h3 {
