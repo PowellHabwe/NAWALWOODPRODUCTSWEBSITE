@@ -579,6 +579,7 @@ section {
 
 #about .container .row p{
  font-size: 1.1em;
+ 
 }
 
 #about .container .row h3{
@@ -1723,3 +1724,11 @@ section {
   background-size: cover;
   background-position: center;
 } 
+
+.about .container .row ul {
+  color: #ffc451;
+}
+
+/* #about .row h4 {
+  font-size: 30em;
+} */
