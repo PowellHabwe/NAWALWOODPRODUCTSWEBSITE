@@ -932,6 +932,15 @@ section {
   color: #151515;
 }
 
+.counts h5 {
+  color: #151515;
+}
+
+.counts p {
+  color: #151515;
+  font-weight: bold;
+}
+
 .counts .content h5 {
   margin-bottom: 0;
  font-family:  "Raleway", sans-serif;
@@ -1741,5 +1750,16 @@ section {
 
 
 } */
+
+#paragraph {
+  font-size: 15px;
+}
+
+#background {
+  background-image: url("/assets/img/white.jpg");
+  background-size: cover; 
+  background-position: center;
+  filter: brightness(80%)
+}
 
 
