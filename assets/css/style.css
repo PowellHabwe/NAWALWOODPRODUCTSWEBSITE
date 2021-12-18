@@ -933,12 +933,15 @@ section {
 }
 
 .counts h5 {
-  color: #151515;
+  /* color: #151515; */
+  color: #ffffff;
+
 }
 
 .counts p {
-  color: #151515;
+  /* color: #151515; */
   font-weight: bold;
+  color: #ffffff !important;
 }
 
 .counts .content h5 {
@@ -1757,9 +1760,10 @@ section {
 
 #background {
   background-image: url("/assets/img/white.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
   background-size: cover; 
   background-position: center;
-  filter: brightness(80%)
+  filter: brightness(80%) 
 }
 
 
