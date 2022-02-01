@@ -993,7 +993,8 @@ section {
 }
 
 .counts .image {
-  background: url("../img/counts-img.jpg") center center no-repeat;
+  background: url("../img/count.jpg") center center no-repeat;
+  /* background: url("../img/counts-img.jpg") center center no-repeat; */
   background-size: cover;
   min-height: 400px;
 }
@@ -1766,4 +1767,16 @@ section {
   filter: brightness(80%) 
 }
 
+#counts p{
+  background-color: rgba(0, 0, 0, 0.329) ; 
+ /* background-color: rgba(128, 128, 128, 0.61); */
+ 
+}
 
+@media (max-width: 600px) {
+  #counts p{
+    background-color: rgba(0, 0, 0, 0.021) ; 
+   /* background-color: rgba(128, 128, 128, 0.61); */
+   
+  }
+}
