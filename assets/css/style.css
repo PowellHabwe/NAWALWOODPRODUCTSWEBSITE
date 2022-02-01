@@ -685,7 +685,10 @@ section {
 --------------------------------------------------------------*/
 #services {
   margin-top: -3em;
-  background-color: #535353;
+  /* background-color: #535353; */
+  background: rgba(14, 13, 13, 0.904) url(./furniture.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
 }
 
 #services .container .row {
@@ -924,6 +927,14 @@ section {
 --------------------------------------------------------------*/
 .counts .content {
   padding: 30px 0;
+}
+
+#counts {
+  background: rgba(0, 0, 0, 0.322) url("/assets/img/white.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+
 }
 
 .counts .content h3 {
@@ -1508,17 +1519,32 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: black ;
+ background: black ; 
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
-#footer .footer-top {
-  background: #151515;
+ #footer .footer-top {
+   /* background: #151515;   */
+    background: rgba(14, 13, 13, 0.829) url(./furniture.jpg);
+   background-size: cover;
+   background-position: center;
+   background-blend-mode: darken; 
   border-bottom: 1px solid #222222;
   padding: 60px 0 30px 0;
+} 
+
+#footer .footer-top-c {
+  /* background: #151515;  */
+  background: rgba(0, 0, 0, 0.829) url(../img/floor.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+ border-bottom: 1px solid #222222;
+ padding: 60px 0 30px 0;
 }
+
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
@@ -1759,24 +1785,11 @@ section {
   font-size: 15px;
 }
 
-#background {
+/* #background {
   background-image: url("/assets/img/white.jpg");
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover; 
   background-position: center;
   filter: brightness(80%) 
-}
+} */
 
-#counts p{
-  background-color: rgba(0, 0, 0, 0.329) ; 
- /* background-color: rgba(128, 128, 128, 0.61); */
- 
-}
-
-@media (max-width: 600px) {
-  #counts p{
-    background-color: rgba(0, 0, 0, 0.021) ; 
-   /* background-color: rgba(128, 128, 128, 0.61); */
-   
-  }
-}
