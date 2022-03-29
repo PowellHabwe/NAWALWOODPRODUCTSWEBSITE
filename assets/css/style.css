@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: greenyellow;
+  color: #ffd584;
   font-size: 0.8em;
 }
 
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: hsl(83, 86%, 45%);
+  color: #ffd584;
 }
 
 .nav-menu .drop-down ul {
@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
   color: #151515;
-  background: rgb(128, 199, 21);
+  background: #ffd584;
 }
 
 .nav-menu .drop-down > a:after {
@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
   color: #151515;
   text-decoration: none;
-  background: rgb(128, 199, 21);
+  background: #ffd584;
 }
 
 .mobile-nav .drop-down > a:after {
@@ -689,7 +689,7 @@ section {
 #services {
   margin-top: -3em;
   /* background-color: #535353; */
-  background: rgba(99, 252, 29, 0.986) url(./furniture.jpg);
+  background: #cecac3b2 url(./furniture.jpg);
   background-size: cover;
   background-blend-mode: darken; 
 }
@@ -713,7 +713,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: hsl(83, 86%, 45%);;
+  background: #ffd584;;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -943,7 +943,7 @@ section {
 .counts .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: greenyellow;
+  color: #fff;
 }
 
 .counts h5 {
@@ -971,7 +971,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: hsl(83, 86%, 45%);;
+  color: #ffd584;
   float: left;
 }
 
@@ -980,7 +980,7 @@ section {
   line-height: 30px;
   display: block;
   font-weight: 700;
-  color: greenyellow;
+  color: #ffd584;
   margin-left: 50px;
 }
 
@@ -1522,7 +1522,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
- background: rgb(16, 163, 16) ; 
+ background: black ; 
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1530,7 +1530,7 @@ section {
 
  #footer .footer-top {
    /* background: #151515;   */
-   background: rgba(99, 252, 29, 0.986) url(./furniture.jpg);
+   background: #636262cb url(./furniture.jpg);
    background-size: cover;
    background-position: center;
    background-blend-mode: darken; 
